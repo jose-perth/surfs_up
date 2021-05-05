@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-This project is the nineth weekly challenge of the Data Science Bootcamp. It allows us to put into practice and showcare the skills learned in Module 9 of the bootcamp.
+This project is the ninth weekly challenge of the Data Science Bootcamp. It allows us to put into practice and showcase the skills learned in Module 9 of the bootcamp.
 
 ### Purpose
 
@@ -59,7 +59,13 @@ We can see from the statistics below that this is the case. Namely:
 - the standard deviation of temperatures is also very similar, although slightly larger in December (3.7°F) than in June (3.3°F)
 - the maximum temperature in December (83°F) is very close to the maximum in June (85°F)
 
-![Summary statistics for June](./Resources/June_temps.png) ![Summary statistics for December](./Resources/December_temps.png) 
+**Histogram June Temperatures**
+
+![Summary statistics for June](./Resources/June_temps.png) 
+
+**Histogram December Temperatures**
+
+![Summary statistics for December](./Resources/December_temps.png) 
 
 ## Summary
 
@@ -82,9 +88,10 @@ temps_dec_df.plot.hist(bins=10)
 
 ### Density Distributions
 
-The temperatures can be easily compared if we look at the density distribution of the temperatures for both months. From the plot below, we can see that the temperatures in the month of June are higher than in the month of December, although by not much.
+The temperatures can be easily compared if we look at the density distribution of the temperatures for both months. From the plot below, we can see that the temperatures in the month of June are higher than in the month of December, although not by much as previously stated.
 
 **Temperature - Density Distribution**
+
 ![Density Distributions](./Resources/Density_distribution_both.png)
 
 The density distributions were generated using the *seaborn* dependency for python and a new query extracting the date and year and month of the data point.
@@ -110,9 +117,11 @@ An interesting piece of information can be obtained by looking at the temperatur
 As it can be seen in the plots below the distributions for both months has been shifting to higher temperature values over the years.  So, it would be a good guess that the ice-cream business will actually improve over time. 
 
 **Density Distribution - June**
+
 ![Yearly Data June](./Resources/June_density_distribution_by_year.png)
 
 **Density Distribution - December**
+
 ![Yearly Data December](./Resources/December_density_distribution_by_year.png)
 
 ```python
