@@ -59,13 +59,7 @@ We can see from the statistics below that this is the case. Namely:
 - the standard deviation of temperatures is also very similar, although slightly larger in December (3.7°F) than in June (3.3°F)
 - the maximum temperature in December (83°F) is very close to the maximum in June (85°F)
 
-**Histogram June Temperatures**
-
-![Summary statistics for June](./Resources/June_temps.png) 
-
-**Histogram December Temperatures**
-
-![Summary statistics for December](./Resources/December_temps.png) 
+![Summary statistics for June](./Resources/June_temps.png)  ![Summary statistics for December](./Resources/December_temps.png) 
 
 ## Summary
 
@@ -77,7 +71,13 @@ We can further look at the data and draw other information.
 
 The above points can also be observed in the histogram for both queries. Notice that although the statistics are very similar for both months, the month of June shows a wider distribution.
 
-![Histogram June](./Resources/June_histogram.png) ![Histogram Dec](./Resources/December_histogram.png)
+**Histogram June Temperatures**
+
+![Histogram June](./Resources/June_histogram.png) 
+
+**Histogram December Temperatures**
+
+![Histogram Dec](./Resources/December_histogram.png)
 
 The histograms were generated using the following code:
 
